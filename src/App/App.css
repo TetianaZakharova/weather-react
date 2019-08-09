@@ -1,0 +1,71 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+  padding: 24px;
+  background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+
+.base {
+  padding: 50px;
+}
+
+.content {
+  width: 420px;
+  margin: 0 auto;
+  height: 320px;
+  background-color: #05464F;
+  box-shadow: 2px 5px 22px 7px rgba(65,91,94,1);
+  padding: 48px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.todayWeather {
+   font-size: 28px;
+ }
+.dateCity {
+  display: flex;
+  flex-direction: row;
+}
+
+.date{
+  width: 50%;
+}
+
+.city {
+  margin-left: auto;
+}
+
+.temp {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  color: #FFEFBA;
+}
+
+.tempCel {
+  font-size: 88px;
+  padding-right: 24px;
+  margin: auto 24px auto 0;
+}
+
+.weekWeather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 24px auto;
+}
+
+.weekForecast {
+  display: flex;
+  flex-direction: column;
+  color:#FFEFBA;
+}
+
+.weekTemp{
+  text-align: center;
+}
