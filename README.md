@@ -1,1 +1,1 @@
-Demo Link: https://tetianazakharova.github.io/weather-react/
+Demo: https://tetianazakharova.github.io/weather-react/
